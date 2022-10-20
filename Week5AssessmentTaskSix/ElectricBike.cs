@@ -3,21 +3,22 @@ namespace Week5AssessmentTaskSix;
 using static System.Console;
 public class ElectricBike
 {
-    public string id { get; set; }
-    public string location { get; set; }
-    public int batteryPercentage { get; set; }
+    public string Id { get; set; }
+    public string Location { get; set; }
+    public int BatteryPercentage { get; set; }
 
     public ElectricBike(string id, string location, int batteryPercentage)
     {
-        this.id = id;
-        this.location = location;
-        this.batteryPercentage = batteryPercentage;
+        Id = id;
+        Location = location;
+        BatteryPercentage = batteryPercentage;
     }
 
-    void PrintDetails()
+    public void PrintDetails()
     {
-        WriteLine($"ID: {id}");
-        WriteLine($"Location {location}");
-        WriteLine($"Battery Percentage {batteryPercentage}");
+        WriteLine($"ID: {Id}");
+        WriteLine($"Location: {Location}");
+        WriteLine($"Battery Percentage: {BatteryPercentage}%");
+        WriteLine("========================================");
     }
 }
