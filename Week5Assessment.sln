@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week5Assessment", "Week5Assessment\Week5Assessment.csproj", "{2FAA8A21-09E0-409D-A805-127777F3DD3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week5AssessmentTaskTwo", "Week5AssessmentTaskTwo\Week5AssessmentTaskTwo.csproj", "{74C3AA62-9DDC-468F-8574-5DA46E9B35DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{2FAA8A21-09E0-409D-A805-127777F3DD3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FAA8A21-09E0-409D-A805-127777F3DD3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FAA8A21-09E0-409D-A805-127777F3DD3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C3AA62-9DDC-468F-8574-5DA46E9B35DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C3AA62-9DDC-468F-8574-5DA46E9B35DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C3AA62-9DDC-468F-8574-5DA46E9B35DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C3AA62-9DDC-468F-8574-5DA46E9B35DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
